@@ -57,12 +57,12 @@ main {
 /* Estilização do Header */
 .header {
     width: auto;
-    background-color: #0b1e63;
+    background: linear-gradient(to right, #0b1e63, #2e6ab1, #4a90e2, #8ab8e6); /* Várias tonalidades de azul */
 }
 
 /* Top Header */
 .top-header {
-    background-color: rgb(227, 228, 239);
+    background: linear-gradient(to right, #cfd8dc, #ffffff, #d5e5ed, #ebf9fb); /* Várias tonalidades pasteis de cinza, branco e azul */
     padding: 6px 1%; 
 }
 
@@ -124,7 +124,7 @@ main {
     height: 50px;
     font-size: 22px;
     border-radius: 50%;
-    background-color: #0b1e63 ;
+    background: linear-gradient(to right, #0d3461, #074f7b, #066199, #0b4987); /* Gradiente de azul  */
     border: none;
     cursor: pointer;
     margin-right: 8px; /* Espaçamento entre os botões */
@@ -165,7 +165,7 @@ main {
     justify-content: center;
     list-style-type: none;
     margin: 0;
-    padding: 0; /* Remove o padding */
+    padding: 4; /* Remove o padding */
 
 }
 
@@ -188,9 +188,9 @@ main {
 
 
 .bottom-header nav ul li a:hover {
-    background-color: #507cff;
-    color: #424147;
-    box-shadow: inset 0 0 5px #0b1e63;
+    background: linear-gradient(to right, #4a90e2, #0072bb, #005f9a, #003f7f); /* Gradiente de azul similar ao padrão */
+    color: #ffffff; /* Cor do texto para maior contraste */
+    box-shadow: inset 0 0 5px #0b1e63; /* Sombra interna */
 }
 
 .drop-hover {
@@ -199,7 +199,7 @@ main {
 
 .drop-hover .drop {
     position: absolute;
-    background-color: #507cff;
+    background: linear-gradient(to right, #4a90e2, #0072bb, #005f9a, #003f7f); /* Gradiente de azul mais escuro */
     width: 100%;
     height: 0; /* Começa com altura zero */
     overflow: hidden;
@@ -218,8 +218,6 @@ main {
 .drop-hover:hover .drop {
     height: 124px;
 }
-
-
 
 /* Estilização da seção Home */
 .home {
@@ -262,6 +260,7 @@ main {
 
 #apresentacao h1 {
     font-size: 2.5em;
+    
 }
 
 #apresentacao h2 {
