@@ -1,0 +1,623 @@
+{
+    "cursos": [
+        {
+            "titulo": "Imersão Dev com Google Gemini",
+            "instituicao": "Alura",
+            "data": "Setembro de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Lógica de programação: mergulhe em programação com JavaScript",
+            "instituicao": "Alura",
+            "data": "Setembro de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Git e GitHub: compartilhando e colaborando em projetos",
+            "instituicao": "Alura",
+            "data": "Agosto de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "JavaScript e HTML: desenvolva um jogo e pratique lógica de programação",
+            "instituicao": "Alura",
+            "data": "Agosto de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Modelagem de banco de dados relacional: modelagem lógica e física",
+            "instituicao": "Alura",
+            "data": "Agosto de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Modelagem de banco de dados: entidades, relacionamentos e atributos",
+            "instituicao": "Alura",
+            "data": "Agosto de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "NumPy: análise numérica eficiente com Python",
+            "instituicao": "Alura",
+            "data": "Agosto de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Pandas: conhecendo a biblioteca",
+            "instituicao": "Alura",
+            "data": "Agosto de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "PostgreSQL",
+            "instituicao": "Alura",
+            "data": "Agosto de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "PostgreSQL: Views, Sub-Consultas e Funções",
+            "instituicao": "Alura",
+            "data": "Agosto de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Power BI Desktop: construindo dashboard",
+            "instituicao": "Alura",
+            "data": "Agosto de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Power BI Desktop: tratamento de dados no Power Query",
+            "instituicao": "Alura",
+            "data": "Agosto de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Python para Data Science",
+            "instituicao": "Alura",
+            "data": "Agosto de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Python para Data Science: primeiros passos",
+            "instituicao": "Alura",
+            "data": "Agosto de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Python para Data Science: trabalhando com funções, estruturas de dados e exceções",
+            "instituicao": "Alura",
+            "data": "Agosto de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Excel: utilizando tabelas dinâmicas e gráficos dinâmicos",
+            "instituicao": "Alura",
+            "data": "Julho de 2024",
+            "descricao": "",
+            "link": ""
+        },
+    {
+            "titulo": "Recursos Visuais com Excel: explorando gráficos e formatos",
+            "instituicao": "Alura",
+            "data": "Março de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Excel: domine o editor de planilhas",
+            "instituicao": "Alura",
+            "data": "Fevereiro de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Análise e Visualização de Dados",
+            "instituicao": "Alura",
+            "data": "Fevereiro de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "SQL",
+            "instituicao": "Alura",
+            "data": "Fevereiro de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Python",
+            "instituicao": "Alura",
+            "data": "Fevereiro de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Gestão Ágil de Projetos",
+            "instituicao": "Alura",
+            "data": "Fevereiro de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Desenvolvimento de Soft Skills",
+            "instituicao": "Alura",
+            "data": "Fevereiro de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Funções com Excel: operações matemáticas e filtros",
+            "instituicao": "Alura",
+            "data": "Fevereiro de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Conhecendo novas pessoas",
+            "instituicao": "Alura",
+            "data": "Dezembro de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Comunicação e Oratória",
+            "instituicao": "Escola Conquer",
+            "data": "Abril de 2023",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Formando Campeões: Liderança F.C.",
+            "instituicao": "Escola Conquer",
+            "data": "Novembro de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "COMUNICAÇÃO E LIDERANÇA",
+            "instituicao": "Estácio",
+            "data": "Abril de 2024",
+            "descricao": "",
+            "link": ""
+        },
+
+        {
+            "titulo": "RACIOCÍNIO LÓGICO, CRÍTICO E ANALÍTICO",
+            "instituicao": "Estácio",
+            "data": "Abril de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "AAC - Lógica de Programação",
+            "instituicao": "Estácio",
+            "data": "Março de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Ética, inclusão e diversidade",
+            "instituicao": "Estácio",
+            "data": "Outubro de 2023",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Inteligência Emocional",
+            "instituicao": "Estácio",
+            "data": "Setembro de 2023",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Perfis Comportamentais e Processos Seletivos",
+            "instituicao": "Estácio",
+            "data": "Setembro de 2023",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Planejamento Financeiro",
+            "instituicao": "Estácio",
+            "data": "Setembro de 2023",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Cultura de Feedback",
+            "instituicao": "Estácio",
+            "data": "Setembro de 2023",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Atendimento ao Cliente",
+            "instituicao": "Estácio",
+            "data": "Setembro de 2023",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Atendimento de Qualidade",
+            "instituicao": "Estácio",
+            "data": "Setembro de 2023",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Gestão de Mudanças e Processos",
+            "instituicao": "Estácio",
+            "data": "Setembro de 2023",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Comunicação Assertiva",
+            "instituicao": "Estácio",
+            "data": "Setembro de 2023",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "O Futuro do Trabalho",
+            "instituicao": "Estácio",
+            "data": "Setembro de 2023",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Gestão de Conflitos",
+            "instituicao": "Estácio",
+            "data": "Setembro de 2023",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Comunicação Não Violenta",
+            "instituicao": "Estácio",
+            "data": "Setembro de 2023",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Elaboração de POP - Procedimento Operacional Padrão",
+            "instituicao": "FM2S Educação e Consultoria",
+            "data": "Maio de 2023",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Gestores do Amanhã",
+            "instituicao": "InsiderClass",
+            "data": "Dezembro de 2022",
+            "descricao": "",
+            "link": ""
+        },
+
+
+        {
+            "titulo": "Diversidade Cultural nas Comunicações: Como Conversar Sobre Assuntos Delicados",
+            "instituicao": "LinkedIn",
+            "data": "Maio de 2023",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Pensamento Estratégico",
+            "instituicao": "LinkedIn",
+            "data": "Maio de 2023",
+            "descricao": "",
+            "link": ""
+        },
+
+        {
+            "titulo": "Como Promover o Envolvimento Emocional de seus Colaboradores",
+            "instituicao": "LinkedIn",
+            "data": "Fevereiro de 2023",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Como Desenvolver Alianças para Liderar sua Organização com Sucesso",
+            "instituicao": "LinkedIn",
+            "data": "Outubro de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Como Desenvolver um Programa de Diversidade, Inclusão e Senso de Pertencimento",
+            "instituicao": "LinkedIn",
+            "data": "Outubro de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Conformidade com a LGPD: O Impacto em Empresas Brasileiras",
+            "instituicao": "LinkedIn",
+            "data": "Outubro de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Gestão de Desempenho: Como Definir Metas e Avaliar a Performance",
+            "instituicao": "LinkedIn",
+            "data": "Outubro de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "A Linguagem Corporal da Liderança",
+            "instituicao": "LinkedIn",
+            "data": "Setembro de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Como Estabelecer Padrões de Qualidade no Atendimento ao Cliente",
+            "instituicao": "LinkedIn",
+            "data": "Setembro de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Como Melhorar suas Competências de Escuta",
+            "instituicao": "LinkedIn",
+            "data": "Setembro de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Comunicação Inclusiva com Atenção Plena, Empatia e Compaixão",
+            "instituicao": "LinkedIn",
+            "data": "Setembro de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Fundamentos de Gestão Ágil",
+            "instituicao": "LinkedIn",
+            "data": "Setembro de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Gestão da Diversidade nas Organizações",
+            "instituicao": "LinkedIn",
+            "data": "Setembro de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Resiliência na Liderança: Como Prosperar em Tempos Difíceis",
+            "instituicao": "LinkedIn",
+            "data": "Setembro de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Técnicas de Comunicação Interpessoal",
+            "instituicao": "LinkedIn",
+            "data": "Setembro de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Como Apoiar sua Equipe na Gestão da Ansiedade",
+            "instituicao": "LinkedIn",
+            "data": "Agosto de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Como Conduzir Conversas Difíceis",
+            "instituicao": "LinkedIn",
+            "data": "Agosto de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Como Criar uma Cultura de Autorresponsabilidade",
+            "instituicao": "LinkedIn",
+            "data": "Agosto de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Como Dar e Receber Feedback",
+            "instituicao": "LinkedIn",
+            "data": "Agosto de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Como Desenvolver as Competências Necessárias para Abordar Conversas Inclusivas",
+            "instituicao": "LinkedIn",
+            "data": "Agosto de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Como Estabelecer e Atingir Metas Profissionais",
+            "instituicao": "LinkedIn",
+            "data": "Agosto de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Como Criar um Ambiente de Trabalho Inclusivo",
+            "instituicao": "LinkedIn",
+            "data": "Agosto de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Como Reconhecer e Valorizar os Talentos da sua Equipe",
+            "instituicao": "LinkedIn",
+            "data": "Agosto de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Técnicas de Resolução de Conflitos",
+            "instituicao": "LinkedIn",
+            "data": "Agosto de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Mindset de Crescimento",
+            "instituicao": "LinkedIn",
+            "data": "Agosto de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Comunicação Eficaz com o Time",
+            "instituicao": "LinkedIn",
+            "data": "Agosto de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Como Incentivar a Criatividade da sua Equipe",
+            "instituicao": "LinkedIn",
+            "data": "Agosto de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Criatividade e Inovação",
+            "instituicao": "LinkedIn",
+            "data": "Agosto de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Como Aumentar a Engajamento da sua Equipe",
+            "instituicao": "LinkedIn",
+            "data": "Agosto de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Gerenciamento do Estresse",
+            "instituicao": "LinkedIn",
+            "data": "Agosto de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Liderança Baseada em Valores",
+            "instituicao": "LinkedIn",
+            "data": "Agosto de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Google Guides",
+            "instituicao": "MyMovit",
+            "data": "Setembro de 2022",
+            "descricao": "",
+            "link": "1736"
+        },
+        {
+            "titulo": "Como construir um Backlog Eficiente",
+            "instituicao": "Noble Work Foundation",
+            "data": "Janeiro de 2023",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Metodologia Ágil - Seja ágil de verdade, ou seja, adaptável",
+            "instituicao": "Noble Work Foundation",
+            "data": "Janeiro de 2023",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Quais os papéis do Product Owner e Scrum Master + Agilidade",
+            "instituicao": "Noble Work Foundation",
+            "data": "Janeiro de 2023",
+            "descricao": "",
+            "link": ""
+        },
+
+        {
+            "titulo": "Certificado em Produtividade, Gestão do Tempo e Propósito",
+            "instituicao": "PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul",
+            "data": "Abril de 2022",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Certificação em Liderança saudável: transformando pessoas e empresas",
+            "instituicao": "PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul",
+            "data": "Março de 2022",
+            "descricao": "",
+            "link": ""
+        },     
+
+        {
+            "titulo": "RD Station Marketing - Basic Get Ready",
+            "instituicao": "RD Station",
+            "data": "Fevereiro de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Curso completo de Lógica de Programação e Algoritmos",
+            "instituicao": "Udemy",
+            "data": "Setembro de 2024",
+            "descricao": "Descrição do curso...",
+            "link": ""
+        },
+        
+        {
+            "titulo": "Análise e Cultura de Dados",
+            "instituicao": "Udemy",
+            "data": "Outubro de 2023",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Metabase",
+            "instituicao": "Udemy",
+            "data": "Outubro de 2023",
+            "descricao": "",
+            "link": ""
+        },
+
+        {
+            "titulo": "Lógica de Programação",
+            "instituicao": "Wise Hands",
+            "data": "Outubro de 2024",
+            "descricao": "",
+            "link": ""
+        },
+        {
+            "titulo": "Metodologias Ágeis e Introdução à Estatística",
+            "instituicao": "Wise Hands",
+            "data": "Outubro de 2024",
+            "descricao": "",
+            "link": ""
+        }
+
+    ]
+    
+}

@@ -1,0 +1,92 @@
+{
+    "experiencias": [
+        {
+            "cargo": "Analista de Suporte Financeiro",
+            "empresa": "RD Station",
+            "dataInicio": "fev de 2024",
+            "dataFim": "Presente",
+            "descricao": [
+                "Análise de Dados Financeiros: Realização de análises detalhadas de dados financeiros para identificar padrões, anomalias e auxiliar na resolução de problemas dos clientes.",
+                "Desenvolvimento de Dashboards: Criação de dashboards personalizados para monitorar indicadores-chave de desempenho (KPIs).",
+                "Geração de Relatórios: Elaboração de relatórios analíticos que documentam problemas e soluções.",
+                "Otimização de Processos: Participação em squads interdisciplinares para identificar oportunidades de melhoria nos fluxos de trabalho.",
+                "Documentação de Processos: Criação e atualização de documentação técnica e material de apoio.",
+                "Integração de Equipes: Facilitação da integração interdepartamental, utilizando dados para alinhar a comunicação entre áreas."
+            ]
+        },
+        {
+            "cargo": "Analista de operações - Temporário",
+            "empresa": "isaac",
+            "dataInicio": "jul de 2023",
+            "dataFim": "fev de 2024",
+            "descricao": [
+                "Mapeamento e Análise de Feedbacks: Coleta e análise de feedbacks dos clientes.",
+                "Registro e Acompanhamento de Chamados: Monitoramento detalhado dos dados de chamados.",
+                "Monitoramento de SLAs e Indicadores de Performance: Acompanhamento rigoroso dos SLAs e KPIs.",
+                "Estabelecimento de Relacionamentos de Confiança: Construção de relações de confiança com os responsáveis financeiros dos clientes.",
+                "Empoderamento de Clientes: Atuação no suporte proativo."
+            ]
+        },
+        {
+            "cargo": "Líder de Relacionamento com Cliente",
+            "empresa": "Stone",
+            "dataInicio": "out de 2022",
+            "dataFim": "jan de 2023",
+            "descricao": [
+                "Gestão e desenvolvimento de equipes.",
+                "Análise e acompanhamento dos resultados dos KPIs.",
+                "Experiência na aquisição e análise de dados.",
+                "Foco na otimização de processos."
+            ]
+        },
+        {
+            "cargo": "Supervisor de atendimento",
+            "empresa": "MadeiraMadeira",
+            "dataInicio": "abr de 2022",
+            "dataFim": "out de 2022",
+            "descricao": [
+                "Gestão de Atendimento em Modalidade Home Office.",
+                "Análise de Dados para Otimização.",
+                "Gestão de Indicadores.",
+                "Liderança e Desenvolvimento de Equipes."
+                
+            ]
+        },
+        {
+            "cargo": "Analista de Marketplace Jr.",
+            "empresa": "MadeiraMadeira",
+            "dataInicio": "jul de 2021",
+            "dataFim": "mar de 2022",
+            "descricao": [
+                "Análise de Dados de Chamados.",
+                "Gestão de Performance.",
+                "Suporte e Treinamento.",
+                "Documentação de Processos."
+            ]
+        },
+        {
+            "cargo": "Assistente de Atendimento",
+            "empresa": "MadeiraMadeira",
+            "dataInicio": "jul de 2020",
+            "dataFim": "jun de 2021",
+            "descricao": [
+                "Atendimento ao Cliente (B2C).",
+                "Tratativa de Trocas e Reembolsos.",
+                "Gestão de Dados Financeiros.",
+                "Monitoramento de Protocolos e Reclamações."
+            ]
+        },
+        {
+            "cargo": "Assistente comercial",
+            "empresa": "Ionlab Equipamentos para laboratórios e Hospitais Ltda",
+            "dataInicio": "jan de 2020",
+            "dataFim": "jun de 2020",
+            "descricao": [
+                "Elaboração de relatórios técnicos e gráficos.",
+                "Experiência no acompanhamento detalhado das vendas.",
+                "Responsável pelo fechamento, cancelamento e abertura de vendas.",
+                "Gerenciamento de contratos."
+            ]
+        }
+    ]
+}

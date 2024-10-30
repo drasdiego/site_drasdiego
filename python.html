@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Python - Introdução</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.9.5/brython.min.js"></script>
+  
+</head>
+<body onload="brython()">
+
+    <header class="header">
+        <section class="top-header">
+            <div class="interface">
+                <div class="logotipo">                        
+                    <a href="index.html">
+                        <img src="Imagens/logotipo.png" alt="Logotipo">
+                    </a>
+                </div>
+                <div class="redes-sociais" aria-label="Redes Sociais">
+                    <a href="https://www.linkedin.com/in/drasdiego/" target="_blank" aria-label="Perfil do LinkedIn">
+                        <button><i class="bi bi-linkedin"></i></button>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=5541991463167&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Acessei%20o%20seu%20site%2C%20e%20quero%20falar%20contigo.%20" target="_blank" aria-label="Iniciar conversa no WhatsApp">
+                        <button><i class="bi bi-whatsapp"></i></button>
+                    </a>
+                    <a href="#" onclick="copyEmail(); return false;" aria-label="Copiar E-mail">
+                        <button><i class="bi bi-envelope"></i></button>
+                    </a>
+                    <a href="https://github.com/drasdiego" target="_blank" aria-label="Acessar GitHub">
+                        <button><i class="bi bi-github"></i></button>
+                    </a> 
+                </div>
+            </div>
+        </section>
+        <section class="bottom-header">
+            <div class="interface">
+                <nav aria-label="Navegação principal">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li class="drop-hover">
+                            <a href="#">TRAJETÓRIA<i class="bi bi-caret-down-fill"></i></a>
+                            <div class="drop">
+                                <a href="apresentacao.html">APRESENTAÇÃO</a>
+                                <a href="cursos.html">CURSOS</a>
+                                <a href="experiencias.html">EXPERIÊNCIAS</a>
+                            </div>
+                        </li>
+                        <li><a href="impulsiona.html">PROJETO IMPULSIONA</a></li>
+                        <li><a href="python.html">TUTORIAL PYTHON</a></li>
+                        <li><a href="contato.html">CONTATO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section id="python" class="container">
+            <div class="content">
+                <img src="/Imagens/giphy.gif" alt="Python" class="python-img">
+                <div>
+                    <h1>O que é Python?</h1>
+                    <p>Python é uma linguagem de programação de alto nível, interpretada e orientada a objetos, amplamente utilizada em diversas áreas, como desenvolvimento web, ciência de dados, automação e inteligência artificial. Criada por <a href="https://pt.wikipedia.org/wiki/Guido_van_Rossum">Guido van Rossum</a> no final de 1989, 
+                        Python ganhou popularidade rapidamente devido à sua simplicidade e legibilidade. O nome da linguagem é uma homenagem ao programa de televisão britânico Monty Python’s Flying Circus. A imagem à esquerda representa o símbolo de Python.</p>
+                </div>
+            </div>
+            <h3>Agora chegou a hora tão esperada para quem está começando na linguagem Python!</h3>
+            <h4>Vamos praticar?</h4>
+
+            <!-- Caixa de Código para copiar -->
+            <div class="flex-container">
+                <div class="code-box">
+                    <div class="button-container">
+                        <button class="copy-button" onclick="copyToClipboard('codeToCopy1')">Copiar Código</button>
+                    </div>
+                    <pre><code id="codeToCopy1">print('Olá mundo!')</code></pre>
+                    <div id="copyMessage1" style="display: none; color: green; margin-top: 10px;">Código copiado!</div>
+                </div>
+
+                <div class="code-box">
+                    <h3>Cole ou digite o código aqui <i class="bi bi-arrow-down-square-fill"></i>.</h3>
+                    <textarea id="codeInputManual" rows="5" cols="50" placeholder="Digite seu código Python aqui..."></textarea>
+                    <button id="runButton">Executar Código</button>
+                    <div id="outputContainer" style="display: none; color: blue; margin-top: 10px;">
+                        <span id="outputMessage"></span>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Olá, mundo!</h3>
+            <h4>Mostrar um "Olá, mundo!" na tela é uma tradição para quem está iniciando na programação. Repare que a mensagem foi inserida entre parênteses após o comando
+                 print. Esse comando, chamado de função, é o que permite exibir informações na tela. Funções são blocos de código que executam uma ação e print é uma das mais utilizadas em Python.</h4>
+            <h3>Experimente também modificar a mensagem ou até adicionar outras frases com print, como:</h3>
+            <h4>Vamos praticar?</h4>
+
+            <!-- Caixa de Código para copiar -->
+            <div class="flex-container">
+                <div class="code-box">
+                    <div class="button-container">
+                        <button class="copy-button" onclick="copyToClipboard('codeToCopy2')">Copiar Código</button>
+                    </div>
+                    <pre><code id="codeToCopy2">print("Bem-vindo(a) ao Python!")
+print("Vamos explorar juntos!")</code></pre>
+                    <div id="copyMessage2" style="display: none; color: green; margin-top: 10px;">Código copiado!</div>
+                </div>
+
+                
+            </div>
+        </section>
+        <img src="Imagens/Rodape-home.png" alt="Rodapé" class="rodape-imagem">
+    </main>
+
+    <script type="text/python">
+        from browser import document, alert
+
+        def runManualPython(event):
+            code = document["codeInputManual"].value.strip()
+            if not code:
+                alert("Por favor, insira um código para executar.")
+                return
+            
+            output = []
+
+            def print(*args):
+                output.append(" ".join(map(str, args)))
+
+            try:
+                exec(code)
+                output_message = "\n".join(output)
+                document["outputMessage"].text = f"{output_message}"
+                document["outputContainer"].style.display = "block"
+                
+                # Adicionando alerta para mostrar o resultado
+                alert(f"{output_message}")
+
+            except Exception as e:
+                error_message = f"Erro: {e}"
+                document["outputMessage"].text = f"{error_message}"
+                document["outputContainer"].style.display = "block"
+                
+                # Adicionando alerta para mostrar o erro
+                alert(f"Erro: {error_message}")
+
+        document["runButton"].bind("click", runManualPython)
+    </script>
+
+    <script>
+        function copyToClipboard(codeId) {
+            const codeElement = document.getElementById(codeId);
+            const code = codeElement.innerText;
+
+            navigator.clipboard.writeText(code).then(() => {
+                const messageId = `copyMessage${codeId.charAt(codeId.length - 1)}`;
+                document.getElementById(messageId).style.display = 'block';
+                setTimeout(() => {
+                    document.getElementById(messageId).style.display = 'none';
+                }, 2000);
+            });
+        }
+
+        function copyEmail() {
+            const email = 'drasdiego@gmail.com';
+            navigator.clipboard.writeText(email).then(() => {
+                alert('E-mail copiado: ' + email);
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>APRESENTAÇÃO</title>
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Diego Arruda" />
+    <meta property="og:description" content="Sou Diego, um profissional dedicado em transição para a área de tecnologia." />
+    <meta property="og:image" content="https://drasdiego.com/Imagens/logotipo.png" /> <!-- URL da imagem -->
+    <meta property="og:url" content="https://drasdiego.com/" /> <!-- Substitua pela URL da página -->
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Diego Arruda" />
+    <meta name="twitter:description" content="Sou Diego, um profissional dedicado em transição para a área de tecnologia." />
+    <meta name="twitter:image" content="https://drasdiego.com/Imagens/logotipo.png" /> <!-- URL da imagem -->
+</head>
+<body>
+
+<header class="header">
+    <section class="top-header">
+        <div class="interface">
+            <div class="logotipo">                        
+                <a href="index.html">
+                    <img src="Imagens/logotipo.png" alt="Logotipo da Empresa">
+                </a>
+            </div>
+            <div class="redes-sociais" aria-label="Redes Sociais">
+                <a href="https://www.linkedin.com/in/drasdiego/" target="_blank" aria-label="LinkedIn">
+                    <button><i class="bi bi-linkedin"></i></button>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5541991463167&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Acessei%20o%20seu%20site%2C%20e%20quero%20falar%20contigo.%20" target="_blank" aria-label="WhatsApp">
+                    <button><i class="bi bi-whatsapp"></i></button>
+                </a>
+                <a href="#" onclick="copyEmail(); return false;" aria-label="Enviar E-mail">
+                    <button><i class="bi bi-envelope"></i></button>
+                </a>
+                <a href="https://github.com/drasdiego" target="_blank" aria-label="GitHub">
+                    <button><i class="bi bi-github"></i></button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="bottom-header">
+        <div class="interface">
+            <nav aria-label="Navegação principal">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li class="drop-hover">
+                        <a href="#">TRAJETÓRIA<i class="bi bi-caret-down-fill"></i></a>
+                        <div class="drop">
+                            <a href="apresentacao.html">APRESENTAÇÃO</a>
+                            <a href="cursos.html">CURSOS</a>
+                            <a href="experiencias.html">EXPERIÊNCIAS</a>
+                        </div>
+                    </li>
+                    <li><a href="impulsiona.html">PROJETO IMPULSIONA</a></li>
+                    <li><a href="python.html">TUTORIAL PYTHON</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+</header>
+
+<main>
+    <section id="apresentacao">
+        <h1>Apresentação:</h1>
+        <p>Sou Diego, tenho 32 anos e sou natural de São Paulo, mas moro em Curitiba desde os 6 anos. Solteiro e pai de três pets: 
+            <a href="#" onclick="abrirModal('bianca', 0)">Bianca</a>, 
+            <a href="#" onclick="abrirModal('bernardo', 0)">Bernardo</a> e 
+            <a href="#" onclick="abrirModal('isabel', 0)">Isabel</a>. 
+            e sempre tive uma forte conexão com a tecnologia. Ao longo dos anos, percebi a importância do desenvolvimento da comunicação, o que me levou a explorar áreas como teatro e dança para aprimorar minhas habilidades de interação social. 
+            Como pessoa autista, trago uma perspectiva única, aliando criatividade e precisão na solução de desafios complexos. Estou sempre em busca de evolução, com o objetivo de contribuir de maneira significativa para projetos em tecnologia, análise de dados e outras soluções inovadoras.
+        <h2>Minha Jornada:</h2>
+        <p>Tenho experiência em suporte e atendimento ao cliente e, atualmente, estou focado em ampliar minha carreira no setor de tecnologia. Ao longo da minha trajetória, desenvolvi habilidades em gestão operacional e soluções técnicas, que me qualificaram a resolver problemas complexos e otimizar processos. Também possuo experiência em liderar equipes multi-skills, tanto em ambientes remotos quanto presenciais. Atuei ativamente no recrutamento e seleção de profissionais, sempre com o objetivo de formar times de alto desempenho.</p>
+
+        <h2>Transição Profissional:</h2>
+        <p>A experiência que adquiri abrange desde a gestão de equipes até a resolução de problemas complexos, o que me preparou para enfrentar novos desafios de forma criativa e precisa. Atualmente, tenho me qualificado para novos desafios na tecnologia, ampliando minhas habilidades em soluções técnicas, automação de processos, visualização de dados e inteligência de negócios.</p>
+              
+        <h2>Minhas Habilidades:</h2>
+        <p><strong>Ferramentas e Linguagens:</strong> SQL, Python, Microsoft Excel, Planilhas Google, Zendesk, Trello, Kibana, Looker, Five9, Google G Suite.</p>
+        <p><strong>Soft Skills:</strong> Análise de Dados, Gestão de Equipes, Resolução de Problemas, Documentação e Treinamento.</p>
+    </section>
+    <br>
+    <img src="Imagens/Rodape-home.png" alt="Rodapé" class="rodape-imagem">
+
+</main>
+
+<!-- Modal -->
+<div id="modal" class="modal" role="dialog" aria-labelledby="modal-titulo" aria-modal="true" tabindex="-1">
+    <div class="modal-conteudo">
+        <span class="fechar" onclick="fecharModal()" aria-label="Fechar modal">&times;</span>
+        <h2 id="modal-titulo"></h2>
+        <div class="navegacao-botao">
+            <button id="anterior" class="nav-btn" style="display:none;" onclick="navegar(-1)">Anterior</button>
+            <button id="proximo" class="nav-btn" style="display:none;" onclick="navegar(1)">Próximo</button>
+        </div>
+        <img id="modal-imagem" class="img-fluid" src="" alt="">
+    </div>
+</div>
+
+<script>
+const pets = {
+    bianca: [
+        "Imagens/pets/Bianca/bianca01.jpg",
+        "Imagens/pets/Bianca/bianca02.jpg",
+        "Imagens/pets/Bianca/bianca03.jpg",
+        "Imagens/pets/Bianca/bianca04.jpg"
+    ],
+    bernardo: [
+        "Imagens/pets/Bernardo/bernardo01.jpg",
+        "Imagens/pets/Bernardo/bernardo02.jpg",
+        "Imagens/pets/Bernardo/bernardo03.jpg",
+        "Imagens/pets/Bernardo/bernardo04.jpg"
+    ],
+    isabel: [
+        "Imagens/pets/Isabel/isabel01.jpg",
+        "Imagens/pets/Isabel/isabel02.jpg",
+        "Imagens/pets/Isabel/isabel03.jpg",
+        "Imagens/pets/Isabel/isabel04.jpg",
+        "Imagens/pets/Isabel/isabel05.jpg"
+    ]
+};
+
+let currentPet = '';
+let currentIndex = 0;
+
+function abrirModal(pet, index) {
+    currentPet = pet;
+    currentIndex = index;
+    
+    document.getElementById('modal-titulo').textContent = pet.charAt(0).toUpperCase() + pet.slice(1);
+    const imgElement = document.getElementById('modal-imagem');
+    imgElement.src = pets[pet][index];
+    imgElement.alt = `${pet} imagem ${index + 1}`;
+    
+    // Exibir ou ocultar botões de navegação
+    document.getElementById('anterior').style.display = (index > 0) ? 'block' : 'none';
+    document.getElementById('proximo').style.display = (index < pets[pet].length - 1) ? 'block' : 'none';
+
+    document.getElementById('modal').style.display = 'block';
+}
+
+function fecharModal() {
+    document.getElementById('modal').style.display = 'none';
+}
+
+function navegar(direcao) {
+    currentIndex += direcao;
+    const imgElement = document.getElementById('modal-imagem');
+    imgElement.src = pets[currentPet][currentIndex];
+    imgElement.alt = `${currentPet} imagem ${currentIndex + 1}`;
+
+    // Atualizar exibição dos botões de navegação
+    document.getElementById('anterior').style.display = (currentIndex > 0) ? 'block' : 'none';
+    document.getElementById('proximo').style.display = (currentIndex < pets[currentPet].length - 1) ? 'block' : 'none';
+}
+
+// Fechar modal ao clicar fora do conteúdo
+window.addEventListener('click', (event) => {
+    const modal = document.getElementById('modal');
+    if (event.target === modal) {
+        fecharModal();
+    }
+});
+
+// Função para copiar o e-mail para a área de transferência
+function copyEmail() {
+    const email = 'diegodras@gmail.com';
+    navigator.clipboard.writeText(email).then(() => {
+        const button = document.querySelector('button[aria-label="Enviar E-mail"]');
+        button.textContent = 'E-mail copiado!';
+        setTimeout(() => {
+            button.textContent = 'Enviar E-mail';
+        }, 2000);
+    }).catch(err => {
+        console.error('Erro ao copiar: ', err);
+    });
+}
+</script>
+
+</body>
+</html>
